@@ -55,7 +55,7 @@ h1, h2 {
     line-height: 75px;
 }
 
-/* hero image */
+/* hero image and cover text */
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -214,6 +214,7 @@ footer {
 
 .social-networks {
     text-align: center;
+    list-style-type: none;
 }
 
 .social-networks > li {
@@ -225,5 +226,8 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+.social-networks a {
     text-decoration: none;
 }
